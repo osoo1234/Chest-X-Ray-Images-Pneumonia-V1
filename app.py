@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load model
-model = load_model("WaAI_Xray_Model.h5")
+model = load_model("WaAI_Xray_Model.keras")
 
 st.set_page_config(page_title="WaAI X-ray", layout="centered")
 st.title("🩻 WaAI Chest X-ray Classifier")
